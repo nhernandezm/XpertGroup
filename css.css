@@ -1,0 +1,12 @@
+.div-container-principal{
+	display: flex;
+	flex-flow: wrap;
+}
+
+.div-container-app{
+	width: 60%;
+}
+
+.div-container-cases{
+	width: 40%;
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Prueba XpertGroup</title>
+	<script src="testcases.js" type="text/javascript"></script>
+	<script src="core.js" type="text/javascript"></script>
+	<script src="app.js" type="text/javascript"></script>
+	
+	<link rel="stylesheet" type="text/css" href="css.css">
+</head>
+<body>
+	<div class="div-container-principal">
+		<div class="div-container-app">
+			<label>Cases</label><input value="1" id="int_cases" type="number" name="int_cases" min=1><button onclick="initCases()">Iniciar</button>
+			<div id="div_app"></div>
+		</div>
+
+		<div class="div-container-cases">
+			<div>TEST CASES</div>
+			<div><button onclick="initTestCase()">RUN</button></div>
+			<div id="div_test_cubo_1"></div>			
+		</div>
+	</div>
+
+</body>
+</html>
