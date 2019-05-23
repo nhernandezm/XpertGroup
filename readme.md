@@ -1,3 +1,5 @@
+Cube Summation
+
 Para poner en funcionamiento esta aplicaciòn 
 debe abrir el archivo index.html en un navegador.
 
